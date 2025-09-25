@@ -1,0 +1,15 @@
+tag @s add raycasting
+
+#отдача
+
+
+#запуск рейкаста от лица игрока
+execute anchored eyes positioned ^ ^ ^ run function scr:raycast_spray/raycast
+
+playsound minecraft:entity.creeper.hurt ambient @a ~ ~ ~ 1 1.5
+
+
+tag @s remove raycasting
+
+
+scoreboard players reset .distance dist
