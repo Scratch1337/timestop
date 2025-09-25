@@ -9,9 +9,6 @@ execute as @s[nbt={SelectedItem:{id:"minecraft:stick"}}] at @s run function scr:
 execute at @s[tag=!charge,nbt={SelectedItem:{id:"minecraft:lime_dye"}}] run title @a actionbar "§fЗаряд телефона: §c0%"
 execute at @s[tag=!charge,nbt={SelectedItem:{id:"minecraft:lime_dye"}}] run playsound block.anvil.land ambient @a ~ ~ ~
 
-execute at @s[tag=charge,nbt={SelectedItem:{id:"minecraft:lime_dye"}},tag=!unlocked] run title @a actionbar "§cНеверный отпечаток пальца"
-execute at @s[tag=charge,nbt={SelectedItem:{id:"minecraft:lime_dye"}},tag=!unlocked] run playsound block.anvil.land ambient @a ~ ~ ~
-execute at @s[tag=charge,nbt={SelectedItem:{id:"minecraft:lime_dye"}},tag=unlocked] run function scr:phone
 
 
 execute at @s[nbt={SelectedItem:{id:"minecraft:clock"}}] run function scr:timestop
