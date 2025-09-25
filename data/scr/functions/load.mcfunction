@@ -31,6 +31,8 @@ scoreboard objectives add rekv dummy
 # give Scratch1337 book{display:{Name:'{"text":"Личный дневник","color":"aqua","italic":false}',Lore:['[{"text":"Принадлежит:","color":"gray","italic":false},{"text":" Скретч","color":"gold","italic":false}]','{"text":"Дата рождения: 12.05.2013","color":"gray","italic":false}']}} 1
 # give Scratch1337 book{display:{Name:'{"text":"Личный дневник","color":"aqua","italic":false}',Lore:['[{"text":"Принадлежит:","color":"gray","italic":false},{"text":" Фласка","color":"light_purple","italic":false}]','{"text":"Дата рождения: 11.01.2014","color":"gray","italic":false}']}} 1
 
+ 
+team leave @a
 
 team add hidename
 team modify hidename nametagVisibility never
